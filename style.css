@@ -1,0 +1,56 @@
+/* REVIEW - Your styles are important, but how you organize them holds more importance. Careful to not overuse the Element selector, when you need to use a style multiple times use a class, ids must be reserved for one time use.*/
+
+.title {
+  font-size: 2em;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.navigation-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.active {
+  color: #9d2e2e !important;
+  font-weight: bolder;
+}
+
+.navigation-area a {
+  margin: 0 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.form-formatting {
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-inline: 5em;
+}
+
+
