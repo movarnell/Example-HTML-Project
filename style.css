@@ -1,6 +1,6 @@
 /* REVIEW - Your styles are important, but how you organize them holds more importance. Careful to not overuse the Element selector, when you need to use a style multiple times use a class, ids must be reserved for one time use.*/
 
-.title {
+h1 {
   font-size: 2em;
   color: #333;
   text-align: center;
