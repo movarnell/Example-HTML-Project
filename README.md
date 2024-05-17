@@ -50,7 +50,7 @@ css/: Contains all the styles for the project.
 	•	images/: Contains image files used in the project.
 	•	index.html: The main HTML file.
 
-🎨 Features
+### 🎨 Features
 
 	•	Basic HTML structure
 	•	Custom CSS styling
