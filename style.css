@@ -54,3 +54,11 @@ h1 {
 }
 
 
+.prince {
+  border-color: darkorchid;
+  background-color:blueviolet
+}
+
+.prince:hover {
+  background-color:purple;
+}

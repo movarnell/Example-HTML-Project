@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Website</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!--Navigation Area-->
     <nav class="navigation-area">
@@ -15,10 +18,44 @@
     </nav>
     <!--End Navigation Area-->
     <div class="center">
-        <img src="https://www.pgcps.org/globalassets/shared/images/herobanner/h-welcome-bienvenidas-bienvenue.jpg" alt="Welcome text in multiple languages" width="600">
+        <img src="https://www.pgcps.org/globalassets/shared/images/herobanner/h-welcome-bienvenidas-bienvenue.jpg"
+            alt="Welcome text in multiple languages" width="600">
     </div>
     <h1>To Our Website</h1>
     <h2 class="subtitle">Introductions:</h2>
-    <p class="container">This website is an example website built to show you how different types of selectors with CSS work and to provide examples so that you can better understand how websites are designed and how to structure your work.</p>
+    <p class="container">This website is an example website built to show you how different types of selectors with CSS
+        work and to provide examples so that you can better understand how websites are designed and how to structure
+        your work.</p>
+
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname">
+        <label for="role">Role:</label>
+        <input type="text" id="role" name="role">
+        <button class="btn btn-primary prince" type="submit" id="button" value="Submit">Gimme Tha Data</button>
+    </form>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Role</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>Web Developer</td>
+                </tr>
+            </tbody>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
+
 </html>
