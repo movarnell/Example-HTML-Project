@@ -62,3 +62,9 @@ h1 {
 .prince:hover {
   background-color:purple;
 }
+
+.img-fluid {
+  max-width: 300px;
+  height: auto;
+  border-radius: 2%;
+}
